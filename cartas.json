@@ -1,0 +1,126 @@
+{
+    "cartas": [
+      {
+        "numero": "1",
+        "fechaApertura": "2025-02-28",
+        "texto": "Iniciamos la cuenta regresiva para celebrar a Chechito.",
+        "imagenes": []
+      },
+      {
+        "numero": "2",
+        "fechaApertura": "2025-03-01",
+        "texto": "La sorpresa de hoy es chiquitita pero te dejará saber un poco más sobre tu regalo final, pues toda la sorpresa esta relacionada. Te amito!!",
+        "imagenes": ["./images/Sticker_cumpleañero.png"]
+      },
+      {
+        "numero": "3",
+        "fechaApertura": "2025-03-02",
+        "texto": "Estos son algunos wallpapers para ti, hechos con todo el amor del mundo:",
+        "imagenes": ["./images/Wallpaper_1.png", "./images/Wallpaper_2.png", "./images/Wallpaper_3.png"]
+      },
+      {
+        "numero": "4",
+        "fechaApertura": "2025-03-03",
+        "texto": "A quién no le gusta que lo feliciten, por eso aquí tienes un nuevo diploma para tu colección ",
+        "imagenes": ["./images/Diploma.png"]
+      },
+      {
+        "numero": "5",
+        "fechaApertura": "2025-03-04",
+        "texto": "Independizarse no es fácil y menos si no sabemos cocinar, aquí te dejo una receta nueva para llenar de sabor tu comidita",
+        "imagenes": ["./images/Sauce_recipe.png"]
+      },
+      {
+        "numero": "6",
+        "fechaApertura": "2025-03-05",
+        "texto": "Tenía que sacar a mi astróloga interior, aquí te dejo tu horóscopo del mes",
+        "imagenes": ["./images/Horoscope.png"]
+      },
+      {
+        "numero": "7",
+        "fechaApertura": "2025-03-06",
+        "texto": "Las listas nunca pueden faltar ",
+        "imagenes": ["./images/Letter.png"]
+      },
+      {
+        "numero": "8",
+        "fechaApertura": "2025-03-07",
+        "texto": "Aquí dejo mi secreto, ya no tan secreto mejor guardado",
+        "imagenes": ["./images/Panquecitos_recipe.png"]
+      },
+      {
+        "numero": "9",
+        "fechaApertura": "2025-03-08",
+        "texto": "Porque la comida es lo que nos hace más felices: ",
+        "imagenes": ["./images/Varietale_bonus.png"]
+      },
+      {
+        "numero": "10",
+        "fechaApertura": "2025-03-09",
+        "texto": "Que pasaba en el mundo cuando mami Dalis, estaba dando vida a este ser de luz",
+        "imagenes": ["./images/News.png"]
+      },
+      {
+        "numero": "11",
+        "fechaApertura": "2025-03-10",
+        "texto": "Es importante mantener la motivación, y encontrar una manera divertida de hacerlo, te dejo un link para Sergio del futuro ",
+        "imagenes": ["./images/Letter_bonus.png"]
+      },
+      {
+        "numero": "12",
+        "fechaApertura": "2025-03-11",
+        "texto": "Porque nada es más rico que los heladitos de crepes:",
+        "imagenes": ["./images/Crepes_bonus.png"]
+      },
+      {
+        "numero": "13",
+        "fechaApertura": "2025-03-12",
+        "texto": "El que persevera alcanza",
+        "imagenes": ["./images/"]
+      },
+      {
+        "numero": "14",
+        "fechaApertura": "2025-03-13",
+        "texto": "Porque cuando compartimos tiempo y comida, somos los más felices",
+        "imagenes": ["./images/Burger_bonus.png"]
+      },
+      {
+        "numero": "15",
+        "fechaApertura": "2025-03-14",
+        "texto": "La imagen personal, es taaaan importante como tú en mi vidita, asi que:",
+        "imagenes": ["./images/Styling_bonus.png"]
+      },
+      {
+        "numero": "16",
+        "fechaApertura": "2025-03-15",
+        "texto": "Juguemos a las escondidas",
+        "imagenes": ["./images/Treasure_hunt.png"]
+      },
+      {
+        "numero": "17",
+        "fechaApertura": "2025-03-16",
+        "texto": "Hora de ser sentimentales ",
+        "imagenes": ["./images/carta1.jpg"]
+      },
+      {
+        "numero": "18",
+        "fechaApertura": "2025-03-17",
+        "texto": "Te amo.",
+        "imagenes": ["./images/carta2.jpg"]
+      },
+      {
+        "numero": "19",
+        "fechaApertura": "2025-03-18",
+        "texto": "Soy tu fan, jajajajja, hope you enjoy it",
+        "imagenes": ["./images/carta1.jpg"]
+      },
+      {
+        "numero": "20",
+        "fechaApertura": "2025-03-19",
+        "texto": "Feliz nivel desbloqueado, este será nuestro itinerario",
+        "imagenes": ["./images/Itinerary.png"]
+      }
+      
+    ]
+  }
+  

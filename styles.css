@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@font-face {
+  font-family: "Dachshund";
+  src: url("./fonts/Dachshund-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Dachshund", sans-serif;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("./fonts/Satoshi-Variable.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
+/* 🔄 Fondo del Preloader */
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #faf3b1; /* Color de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* 🔄 Animación del Spinner */
+.spinner {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fondo del modal */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+}
+
+/* Contenedor del modal */
+.modal-content {
+  background: #fefcec;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%; /* Ajusta según necesites */
+  max-width: 600px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+}
+
+/* Botón para cerrar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  background: none;
+  border: none;
+}
+
+.close:hover {
+  color: #bcd2ee;
+}
+
+/* Estilos internos */
+.modal-content img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.modal-content iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  margin-top: 10px;
+}
+
+.modal-content a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.modal-content a:hover {
+  background-color: #0056b3;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.filter {
+  background: linear-gradient(
+    to bottom,
+    rgba(32, 47, 70, 0.9),
+    rgba(188, 210, 238, 0)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh; /* Hace que el grid ocupe toda la pantalla */
+  top: 0;
+  left: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+p {
+  font-family: Dachshund;
+  text-align: center;
+  color: #faf3b1;
+  font-size: 50px;
+}
+
+.texto-modal {
+  font-size: 20px;
+  font-family: "Satoshi";
+  color: #202f46;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.imagenes-grid {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las imágenes se ajusten si hay poco espacio */
+  gap: 10px; /* Espacio entre imágenes */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+.imagenes-grid img {
+  max-width: 200px; /* Ajuste de tamaño */
+  height: auto;
+  border-radius: 10px; /* Bordes redondeados opcionales */
+}
+
+.dog {
+  width: 150px;
+  height: 150px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #b7814c;
+  color: #faf3b1;
+  font-family: Dachshund;
+  font-size: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .grid_container {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* 1 sola columna en pantallas muy pequeñas */
+  }
+
+  .card {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  .dog {
+    width: 80px;
+    height: 80px;
+  }
+}
