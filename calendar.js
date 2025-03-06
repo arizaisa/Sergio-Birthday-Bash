@@ -117,4 +117,10 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.style.display = "none";
     }
   });
+
+  window.addEventListener("touchstart", (event) => {
+    if (event.target === modal) {
+      cerrarModal();
+    }
+  });
 });
