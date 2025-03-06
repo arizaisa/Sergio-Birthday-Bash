@@ -87,6 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
         // 📌 Si la carta es la 3, aplicar un layout de imágenes en fila
         if (carta.numero === "3") {
           imagenContainer.classList.add("imagenes-grid");
+        } else {
+          imagenContainer.classList.add("center-image")
         }
 
         carta.imagenes.forEach((src) => {
